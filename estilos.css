@@ -1,0 +1,390 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Varela Round',sans-serif;
+
+}
+#banner{
+    height: 85px;
+    width: 100%;
+    background-color: #003A68;
+    position: fixed;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+}
+#logoseneca{
+    width:175px;
+    position: fixed;
+    margin-top: 4px;
+    margin-left: 210px;
+}
+#login{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 800px;
+    height: 20px;
+    border-radius: 0.4em;
+    height: 26px;
+    width: 135px;
+    padding-left: 20px;
+
+    
+  
+    
+}
+#login1{
+    margin-top: 12px;
+    position: absolute;
+    margin-left: 965px;
+    height: 20px;
+    border-radius: 0.4em;
+    height: 26px;
+    width: 135px;
+    padding-left: 20px;
+    
+  
+    
+}
+#buttonlogin{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 1130px;
+    padding: 0.5em;
+    width: 70px;
+    height: 33px;
+    background-color: rgb(4, 118, 179);
+    border-radius: 0.5em;
+    color: white;
+   
+}
+
+#buttonlogin:hover{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 1130px;
+    padding: 0.5em;
+    width: 70px;
+    height: 33px;
+    background-color: rgb(10, 140, 209);
+    border-radius: 0.5em;
+    color: white;
+   
+}
+#fondooscuro{
+    height: 60px;
+    width: 29%;
+    position: absolute;
+    margin-left: 785px ;
+    background-color:#033155 ;
+    z-index: -1;
+    border-left: 1px solid rgba(255, 255, 255, 0.158);
+    border-right: 1px solid rgba(255, 255, 255, 0.158);
+}
+#formulario{
+    position: absolute;
+}
+ #contraseña{
+    position: absolute;
+    color: white;
+    font-size: 9pt;
+    margin-left: 1250px;
+    margin-top: 15px;
+}
+.alogin{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+}
+a{
+    color: rgb(10, 140, 209);
+    text-decoration:none;
+}
+
+#imagen1{
+    background-color: #8cc3f0;
+    height: 410px;
+    position: absolute;
+    width: 100%;
+    background-image: url(img/Imagen1.png);
+    background-size: cover;
+    z-index: -1;
+    margin-top:84px ;
+}
+
+#botonverde{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 1000px;
+    padding: 0.em;
+    width: 250px;
+    height: 60px;
+    background-color: #067C26;
+    border-radius: 0.5em;
+    color: white;
+}
+
+#botonverde:hover{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 1000px;
+    padding: 0.em;
+    width: 250px;
+    height: 60px;
+    background-color: #1e913c;
+    border-radius: 0.5em;
+    color: white;
+
+}
+
+#banner1{
+    background-color: white;
+    height: 25px;
+    text-align: center;
+    font-size: 10pt;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+#noticias{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 100%;
+    margin-top: 500px;
+    position: absolute;
+    height: 700px;
+    z-index: -1;
+}
+#blog{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin-left: 12%;
+    height: 1000px;
+    width: 53%;
+
+}
+#menu{
+    position: absolute;
+    margin-left: 1000px;
+    color: #033155; 
+    text-align: center;
+}
+
+#menu li{
+    list-style:none;
+    padding: 0.8em;
+    width: 260px;
+    margin-left: 75px;
+    margin-top: 2px;
+    font-size: 13pt;
+    text-align: left;
+    
+    
+}
+#menu li:hover {
+    list-style:none;
+    background-color: #d6d6d65d;
+    
+}
+
+.menubox{
+
+    background-color: #397caf;
+    width: 75px;
+}
+.menubox:hover{
+    background-color: #033155;
+
+}
+
+.imgmenu{
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 5px;
+}
+ 
+.info{
+    font-size: 10pt;
+}
+
+#actualidad{
+    font-size: 17pt;
+    margin-left:20px;
+    margin-top: 40px;
+    color: #033155;
+}
+hr{
+    height: 1px;
+    background-color: #03315575;
+    border: none;
+    width: 99%;
+    margin: auto;
+    margin-top: 10px;
+}
+#textobanner{
+    position: absolute;
+    width: 650px;
+    margin-left: 750px ;
+    margin-top: 50px;
+}
+#ipasen{
+    font-size: 25pt;
+    color: #085a1e;
+    font-family: Calibri;
+}
+#subipasen{
+    font-size: 22pt;
+    color: #0e6826;
+    font-family: Calibri;
+    margin-top: -20px;
+}
+#textopasen{
+    margin-top: 20px;
+    line-height:25px;
+    font-family: Calibri;
+    font-size: 15pt;
+}
+.blogpost{
+    
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.numcalendario{
+    position:absolute;
+    font-size: 22pt;
+    text-align: centers;
+    margin-top: 20px;
+    margin-left: 22px;
+    color: #4881a7;
+}
+.fechacalendario{
+    position: absolute;
+    font-size: 12pt;
+    margin-top: 10px;
+    text-align: centers;
+    margin-top: 30px;
+    margin-left: 12px;
+    color: #4881a7;
+
+}
+.calendario{
+    position: absolute;
+}
+.tituloblog{
+    position: absolute;
+    font-size: 16pt;
+    margin-left: 90px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: #033155;
+}
+.imgblog{
+    width: 100%;
+    position: absolute;
+    margin-top: 60px;
+}
+.parrafoblog{
+    position: absolute;
+    margin-top: 400px;
+}
+.hrblog{
+    position: absolute;
+    margin-top: 550px;
+}
+.amenu{
+    text-decoration:none;
+    color: #033155;
+    
+}
+
+.parrafoblogsinimagen{
+    position: absolute;
+    margin-top: 75px;
+
+}
+.hrblogsinimagen{
+    position: absolute;
+    margin-top: 250px;
+}
+
+.blogpostsinimagen{
+    
+    height: 400px;
+    margin-top: -250px;
+    margin-bottom: 200px;
+}
+ #footer{
+     position: absolute;
+     background-color: #ebecee;
+     height: 450px;
+     width: 100%;
+     margin-top: 3550px;
+ }
+ #hrfooter{
+     width: 100%;
+     margin-top: 0px;
+ }
+ #listamenu{
+     height: 400px;
+     width: 70%;
+     margin: auto;
+     margin-top: 50px;
+ }
+.listasmenu{
+    position: static;
+    display: inline-block;
+    width: 22%;
+    margin-left: 20px;
+   
+
+}
+.listamenudecoration{
+    list-style:none;
+    margin-top: 15px;
+    font-size: 10pt;
+    color: #08538b;
+}
+.plistamenu{
+    color: #033155;
+    font-size: 10pt;
+}
+#subfooter{
+
+    margin-top: 50px;
+    height: 85px;
+}
+.juntaandaluciatexto{
+    position: absolute;
+    color: #033155;
+    margin-left: 160px;
+    font-size: 10pt;
+    margin-top: -60px;
+}
+
+.direccionfooter{
+
+    position: absolute;
+    color: #4d5357;
+    margin-left: 160px;
+    font-size: 10pt;
+    margin-top: -30px;
+    line-height:8px;
+
+}
+#contactofooter{
+    position: absolute;
+    color: #4d5357;
+    margin-left:800px;
+    font-size: 10pt;
+    margin-top: -50px;
+    line-height:15px;
+
+}
+
+#imagensubir{
+    position: fixed;
+    margin-left: 1470px;
+    margin-top: 700px;
+    width: 40px;
+}
